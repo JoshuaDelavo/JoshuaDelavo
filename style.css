@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+  }
+.center{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.center h2{
+    border-style: dashed;
+}
+.center p{
+    text-align: justify;
+    font: small-caps bold 12px/30px Georgia, serif;
+}
+#satu{
+    text-decoration: line-through;
+    background-color: green;
+}
+#dua{
+    background-color: red;
+}
+#foto{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+blockquote{
+    font: small-caps bold 12px/30px Georgia, serif;
+}
