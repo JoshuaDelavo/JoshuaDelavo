@@ -9,6 +9,9 @@ body {
 .center h2{
     border-style: dashed;
 }
+.center h1{
+    text-transform: uppercase;
+}
 .center p{
     text-align: justify;
     font: small-caps bold 12px/30px Georgia, serif;
