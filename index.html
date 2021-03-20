@@ -10,6 +10,7 @@
 <body>
     <div class="center">
         <h1>Joshua Delavo Setiadi</h1>
+        <p id="tanggal"></p>
         <img id="foto" src="Joshua.jpg">
         <h2>Profile Singkat</h2>
         <p>
@@ -22,14 +23,18 @@
         </p>
 
         <h2>Biodata</h2>
-        <p>Joshua lahir di <a id="satu">Jakarta</a> <a id="dua"><u>Bandung</u></a> pada tanggal 18 Maret 1999.</p>
+        <p>Joshua lahir di <a id="satu">Jakarta</a> <a id="dua"><u>Bandung</u></a> pada tanggal <mark id="value">18 Maret 1999</mark></p>
 
         <h2>Motto Hidup</h2>
         <blockquote>
             You have to fail to be succeed
         </blockquote>
         <p>Manoj Punjabi, MD Entertainment</p>
-        
     </div>
+
+    <script>
+        var tes1 = document.getElementById("value");
+        document.getElementById("tanggal").innerHTML="18 Maret 1999";
+    </script>
 </body>
 </html>

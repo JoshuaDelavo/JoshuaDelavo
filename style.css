@@ -32,3 +32,6 @@ body {
 blockquote{
     font: small-caps bold 12px/30px Georgia, serif;
 }
+#tanggal {
+    display: none;
+  }
